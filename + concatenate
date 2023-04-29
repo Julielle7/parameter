@@ -1,0 +1,8 @@
+function amountdue (price, quantity) {
+  var subtotal=price * quantity;
+  var tax = 1.05;
+  var total = subtotal * total;
+  return total;
+}
+
+alert ("The amount due is $" + amountdue(10,3));
